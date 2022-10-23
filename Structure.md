@@ -69,45 +69,52 @@
 
 <details>
 <summary> USER </summary>
-|KEY                 TYPE
+
+|KEY                    |TYPE
 |-----------------------|------------------------|
-|INTERGRATION        INTERGRATION[]       
-|CREDIT              number               
-|POINTS              number               
-|CURRENCY            float                
-|                                         
-|DETENTIONS          DETENTION[]          
-|ARCIVED-DETENTIONS  DETENTION[]          
-|                                         
-|ACRIVES             ARCIVE[]             
+|INTERGRATION           |INTERGRATION[]       
+|CREDIT                 |number               
+|POINTS                 |number               
+|CURRENCY               |float                
+|                       |                     
+|DETENTIONS             |DETENTION[]          
+|ARCIVED-DETENTIONS     |DETENTION[]          
+|                       |                     
+|ACRIVES                |ARCIVE[]             
+
 </details>
 
 <details>
 <summary> INTERGRATION </summary>
-|KEY                 TYPE
+
+|KEY                    |TYPE
 |-----------------------|------------------------|
-|ID                  UUID                 
-|PERMS               STRING[]             
+|ID                     |UUID                 
+|PERMS                  |STRING[]             
 
 </details>
 
 <details>
 <summary> DETENTION </summary>
-|KEY                 TYPE
+
+|KEY                    |TYPE
 |-----------------------|------------------------|
-|TIME                DATE                 
-|LOCATION            STRING               
-|LENGTH              NUMBER               
-|DISTRIBOTOR         USER                 
+|TIME                   |DATE                 
+|LOCATION               |STRING               
+|LENGTH                 |NUMBER               
+|DISTRIBOTOR            |USER      
+
 </details>
 
 <details>
 <summary> ARCHIVE </summary>
-|KEY                 TYPE
+
+|KEY                    |TYPE
 |-----------------------|------------------------|
-|CREATION TIME       DATE                 
-|NAME                STRING               
-|VALUE               STRING               
+|CREATION TIME          |DATE                 
+|NAME                   |STRING               
+|VALUE                  |STRING   
+            
 </details>
 
 </ul></details>
