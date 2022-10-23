@@ -1,0 +1,7 @@
+[submodule "Webserver"]
+    path = SC-Connect-Webserver
+    url = https://github.com/7Bit420/SC-Connect-Webserver.git
+
+[submodule "ThreadManager"]
+    path = SC-Connect-ThreadManager
+    url = https://github.com/7Bit420/SC-Connect-ThreadManager.git
